@@ -4,6 +4,8 @@ import { ArrowRight, Sparkles } from "lucide-react";
 import ConsultationDialog from "./ConsultationDialog";
 
 const Hero = () => {
+  const [consultOpen, setConsultOpen] = useState(false);
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background effects */}
