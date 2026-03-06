@@ -65,13 +65,15 @@ const Hero = () => {
               Contact Us
               <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </a>
-            <a
-              href="#contact"
+            <button
+              onClick={() => setConsultOpen(true)}
               className="glass-card px-8 py-4 rounded-xl font-semibold text-lg text-foreground hover:bg-muted/50 transition-all"
             >
               Free Consultation
-            </a>
+            </button>
           </motion.div>
+
+          <ConsultationDialog open={consultOpen} onOpenChange={setConsultOpen} />
         </motion.div>
 
         {/* Floating service tags */}
