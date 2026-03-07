@@ -3,13 +3,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Industries", href: "#industries" },
-  { label: "Academy", href: "#academy" },
-  { label: "Blog", href: "#blog" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "https://nxteramedia.com/home" },
+  { label: "About", href: "https://nxteramedia.com/about" },
+  { label: "Services", href: "https://nxteramedia.com/services" },
+  { label: "Industries", href: "https://nxteramedia.com/industries" },
+  { label: "Academy", href: "https://nxteramedia.com/academy" },
+  { label: "Blog", href: "https://nxteramedia.com/blog" },
+  { label: "Contact", href: "https://nxteramedia.com/contact" },
 ];
 
 const Navbar = () => {
