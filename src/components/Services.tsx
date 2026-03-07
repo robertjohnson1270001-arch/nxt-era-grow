@@ -134,9 +134,14 @@ const ServiceCard = ({ service, i, isInView }: { service: typeof services[0]; i:
         onClick={() => setOpen(!open)}
         className="w-full p-6 text-left flex items-start gap-4"
       >
-        <div className="w-12 h-12 rounded-lg gradient-bg flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
-          <service.icon size={22} className="text-primary-foreground" />
-        </div>
+        <motion.div
+          className="w-16 h-16 rounded-lg overflow-hidden shrink-0"
+          whileHover={{ scale: 1.1, rotate: 3 }}
+          animate={{ y: [0, -4, 0] }}
+          transition={{ y: { duration: 3, repeat: Infinity, ease: "easeInOut" }, scale: { duration: 0.3 } }}
+        >
+          <img src={service.image} alt={service.title} className="w-full h-full object-contain" />
+        </motion.div>
         <div className="flex-1 min-w-0">
           <h3 className="font-display font-semibold text-foreground mb-1">{service.title}</h3>
           <p className="text-sm text-muted-foreground leading-relaxed">{service.desc}</p>
