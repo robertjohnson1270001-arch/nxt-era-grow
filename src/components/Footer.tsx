@@ -19,9 +19,9 @@ const Footer = () => {
                 { icon: Facebook, href: "#" },
                 { icon: Twitter, href: "#" },
                 { icon: Linkedin, href: "#" },
-                { icon: Instagram, href: "#" },
+                { icon: Instagram, href: "https://www.instagram.com/nxtera__media/" },
                 { icon: Youtube, href: "#" },
-                { icon: MessageCircle, href: "https://wa.me/918019987774" },
+                { icon: MessageCircle, href: "https://wa.me/08019987774" },
               ].map(({ icon: Icon, href }, i) => (
                 <a
                   key={i}
