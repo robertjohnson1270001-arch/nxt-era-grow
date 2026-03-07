@@ -4,10 +4,20 @@ import {
   Search, Share2, Globe, FileText, Palette, MousePointerClick, BarChart3, Megaphone, ChevronDown,
 } from "lucide-react";
 
+import seoImg from "@/assets/service-seo.png";
+import socialImg from "@/assets/service-social.png";
+import webImg from "@/assets/service-web.png";
+import contentImg from "@/assets/service-content.png";
+import graphicImg from "@/assets/service-graphic.png";
+import ppcImg from "@/assets/service-ppc.png";
+import strategyImg from "@/assets/service-strategy.png";
+import brandImg from "@/assets/service-brand.png";
+
 const services = [
   {
     icon: Search,
     title: "SEO",
+    image: seoImg,
     desc: "Rank higher on search engines and drive organic traffic to your business.",
     details: [
       "On-page & off-page optimization",
@@ -20,6 +30,7 @@ const services = [
   {
     icon: Share2,
     title: "Social Media Marketing",
+    image: socialImg,
     desc: "Build your brand presence across all major social platforms.",
     details: [
       "Content calendar & strategy",
@@ -32,6 +43,7 @@ const services = [
   {
     icon: Globe,
     title: "Website Designing",
+    image: webImg,
     desc: "Stunning, responsive websites that convert visitors into customers.",
     details: [
       "Custom UI/UX design",
@@ -44,6 +56,7 @@ const services = [
   {
     icon: FileText,
     title: "Content Marketing",
+    image: contentImg,
     desc: "Engaging content that tells your story and builds authority.",
     details: [
       "Blog writing & article creation",
@@ -56,6 +69,7 @@ const services = [
   {
     icon: Palette,
     title: "Graphic Designing",
+    image: graphicImg,
     desc: "Eye-catching visuals that make your brand unforgettable.",
     details: [
       "Logo & brand identity design",
@@ -68,6 +82,7 @@ const services = [
   {
     icon: MousePointerClick,
     title: "PPC Advertising",
+    image: ppcImg,
     desc: "Targeted paid campaigns that maximize your ROI.",
     details: [
       "Google Ads (Search, Display, Shopping)",
@@ -80,6 +95,7 @@ const services = [
   {
     icon: BarChart3,
     title: "Digital Marketing Strategy",
+    image: strategyImg,
     desc: "Data-driven strategies tailored to your business goals.",
     details: [
       "Market research & audience analysis",
@@ -92,6 +108,7 @@ const services = [
   {
     icon: Megaphone,
     title: "Brand Building",
+    image: brandImg,
     desc: "Transform your business identity into a powerful brand.",
     details: [
       "Brand positioning & messaging",
@@ -117,9 +134,14 @@ const ServiceCard = ({ service, i, isInView }: { service: typeof services[0]; i:
         onClick={() => setOpen(!open)}
         className="w-full p-6 text-left flex items-start gap-4"
       >
-        <div className="w-12 h-12 rounded-lg gradient-bg flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
-          <service.icon size={22} className="text-primary-foreground" />
-        </div>
+        <motion.div
+          className="w-16 h-16 rounded-lg overflow-hidden shrink-0"
+          whileHover={{ scale: 1.1, rotate: 3 }}
+          animate={{ y: [0, -4, 0] }}
+          transition={{ y: { duration: 3, repeat: Infinity, ease: "easeInOut" }, scale: { duration: 0.3 } }}
+        >
+          <img src={service.image} alt={service.title} className="w-full h-full object-contain" />
+        </motion.div>
         <div className="flex-1 min-w-0">
           <h3 className="font-display font-semibold text-foreground mb-1">{service.title}</h3>
           <p className="text-sm text-muted-foreground leading-relaxed">{service.desc}</p>
