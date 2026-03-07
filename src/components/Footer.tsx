@@ -9,7 +9,8 @@ const Footer = () => {
           <div className="md:col-span-1">
             <a href="#home" className="flex items-center">
               <img
-                src="https://desperate-copper-fvmfferltb.edgeone.app/Nxtera%20Logo.png"
+                src="c:\Users\home\Downloads\Nxtera Logo.png"
+                alt="NxtEra Media Logo""
                 alt="NxtEra Media Logo"
                 className="h-12 w-auto"
               />
