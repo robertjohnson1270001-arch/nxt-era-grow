@@ -7,9 +7,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="md:col-span-1">
-            <a href="#home" className="font-display text-2xl font-bold">
-              <span className="gradient-text">NxtEra</span>{" "}
-              <span className="text-foreground">Media</span>
+            <a href="#home" className="flex items-center">
+              <img
+                src="https://desperate-copper-fvmfferltb.edgeone.app/Nxtera%20Logo.png"
+                alt="NxtEra Media Logo"
+                className="h-12 w-auto"
+              />
             </a>
             <p className="text-sm text-muted-foreground mt-4 leading-relaxed">
               The Best Digital Marketing Company in Vizag. Transforming businesses into brands.
