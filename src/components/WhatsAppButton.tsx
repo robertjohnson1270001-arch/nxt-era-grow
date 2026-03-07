@@ -1,18 +1,19 @@
-import { MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
 const WhatsAppButton = () => (
   <motion.a
-    href="https://wa.me/918019987774"
+    href="https://wa.me/+918019987774"
     target="_blank"
     rel="noopener noreferrer"
     initial={{ scale: 0 }}
     animate={{ scale: 1 }}
     transition={{ delay: 2, type: "spring" }}
-    className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-teal flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
+    className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
     title="Chat on WhatsApp"
   >
-    <MessageCircle size={26} className="text-primary-foreground" />
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="white">
+      <path d="M16.004 0C7.165 0 .004 7.161.004 16c0 2.82.736 5.573 2.135 7.998L.014 32l8.207-2.094A15.93 15.93 0 0 0 16.004 32C24.843 32 32 24.839 32 16S24.843 0 16.004 0zm0 29.39a13.36 13.36 0 0 1-6.81-1.868l-.488-.29-5.065 1.328 1.352-4.937-.318-.505A13.303 13.303 0 0 1 2.63 16c0-7.38 6.005-13.385 13.374-13.385S29.37 8.62 29.37 16s-5.997 13.39-13.366 13.39zm7.336-10.022c-.402-.201-2.379-1.174-2.748-1.308-.369-.134-.638-.201-.906.201-.268.402-1.04 1.308-1.275 1.576-.235.268-.47.302-.872.101-.402-.201-1.697-.625-3.233-1.993-1.195-1.065-2.001-2.38-2.236-2.782-.235-.402-.025-.619.177-.82.181-.18.402-.47.604-.704.201-.235.268-.402.402-.67.134-.268.067-.503-.033-.704-.101-.201-.907-2.184-1.242-2.99-.327-.784-.66-.678-.907-.69l-.772-.014a1.48 1.48 0 0 0-1.074.503c-.369.402-1.409 1.376-1.409 3.358s1.442 3.894 1.643 4.163c.201.268 2.836 4.33 6.874 6.07.96.415 1.71.663 2.294.849.964.306 1.842.263 2.536.16.774-.116 2.379-.973 2.715-1.912.335-.939.335-1.743.235-1.912-.1-.168-.369-.268-.771-.47z"/>
+    </svg>
   </motion.a>
 );
 
