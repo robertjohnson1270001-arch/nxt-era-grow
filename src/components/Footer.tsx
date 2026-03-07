@@ -53,12 +53,12 @@ const Footer = () => {
             <h4 className="font-display font-semibold text-foreground mb-4">Quick Links</h4>
             <ul className="space-y-2.5">
               {[
-                { label: "About Us", href: "#about" },
-                { label: "Digital Academy", href: "#academy" },
-                { label: "Blog", href: "#blog" },
-                { label: "Contact", href: "#contact" },
-                { label: "Privacy Policy", href: "#" },
-                { label: "Terms & Conditions", href: "#" },
+                { label: "About Us", href: "https://nxteramedia.com/about/" },
+                { label: "Digital Academy", href: "https://nxteramedia.com/academy/" },
+                { label: "Blog", href: "https://nxteramedia.com/blog/" },
+                { label: "Contact", href: "https://nxteramedia.com/contact/" },
+                { label: "Privacy Policy", href: "https://nxteramedia.com/Privacy Policy" },
+                { label: "Terms & Conditions", href: "https://nxteramedia.com/Terms & Conditions/" },
               ].map((link) => (
                 <li key={link.label}>
                   <a href={link.href} className="text-sm text-muted-foreground hover:text-coral transition-colors">{link.label}</a>
