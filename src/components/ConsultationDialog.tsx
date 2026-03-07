@@ -26,8 +26,8 @@ const services = [
 ];
 
 const trustStats = [
-  { icon: Users, label: "350+ Happy Customers" },
-  { icon: Award, label: "5+ Years Experience" },
+  { icon: Users, label: "150+ Happy Customers" },
+  { icon: Award, label: "1+ Year Experience" },
   { icon: Briefcase, label: "15+ Professionals" },
 ];
 
