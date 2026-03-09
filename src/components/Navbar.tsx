@@ -33,9 +33,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between h-16 md:h-20 px-4">
-        <a href="#home" className="font-display text-2xl font-bold">
-          <span className="gradient-text">NxtEra</span>{" "}
-          <span className="text-foreground">Media</span>
+        <a href="#home">
+          <img src={logo} alt="NxtEra Media" className="h-10 md:h-12 w-auto" />
         </a>
 
         {/* Desktop */}
