@@ -1,15 +1,16 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navItems = [
-  { label: "Home", href: "https://nxteramedia.com/home" },
-  { label: "About", href: "https://nxteramedia.com/about" },
-  { label: "Services", href: "https://nxteramedia.com/services" },
-  { label: "Industries", href: "https://nxteramedia.com/industries" },
-  { label: "Academy", href: "https://nxteramedia.com/academy" },
-  { label: "Blog", href: "https://nxteramedia.com/blog" },
-  { label: "Contact", href: "https://nxteramedia.com/contact" },
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Services", href: "#services" },
+  { label: "Industries", href: "#industries" },
+  { label: "Academy", href: "#academy" },
+  { label: "Blog", href: "#blog" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -32,9 +33,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between h-16 md:h-20 px-4">
-        <a href="#home" className="font-display text-2xl font-bold">
-          <span className="gradient-text">NxtEra</span>{" "}
-          <span className="text-foreground">Media</span>
+        <a href="#home">
+          <img src={logo} alt="NxtEra Media" className="h-10 md:h-12 w-auto" />
         </a>
 
         {/* Desktop */}

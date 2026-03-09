@@ -4,9 +4,8 @@ import { ChevronLeft, ChevronRight, Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Allu Hemanth Prem Kumar",
-    role: "CEO, Skill Coders",
-    website: "skillcoders.com",
+    name: "Rajesh Kumar",
+    role: "CEO, TechVizag Solutions",
     text: "NxtEra Media transformed our online presence completely. Our organic traffic increased by 300% in just 6 months. Highly recommended!",
   },
   {

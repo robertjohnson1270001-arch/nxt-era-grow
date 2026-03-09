@@ -5,7 +5,7 @@ const stats = [
   { value: 5, suffix: "+", label: "Years of Experience" },
   { value: 200, suffix: "+", label: "Happy Customers" },
   { value: 10, suffix: "M+", label: "Customer Reach" },
-  { value: 26, suffix: "+", label: "Professionals" },
+  { value: 25, suffix: "+", label: "Professionals" },
 ];
 
 const CountUp = ({ target, suffix, inView }: { target: number; suffix: string; inView: boolean }) => {

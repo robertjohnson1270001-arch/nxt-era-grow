@@ -109,7 +109,7 @@ const services = [
     icon: Megaphone,
     title: "Brand Building",
     image: brandImg,
-    desc: "Transform your business identity into powerful brand.",
+    desc: "Transform your business identity into a powerful brand.",
     details: [
       "Brand positioning & messaging",
       "Visual identity & style guides",

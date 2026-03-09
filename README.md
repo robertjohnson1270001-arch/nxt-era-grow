@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://skillcoders.com/projects/REPLACE_WITH_PROJECT_ID
+**URL**: https://alluhemanthpremkumar.com/projects/REPLACE_WITH_PROJECT_ID
 
 ## How can I edit this code?
 
@@ -10,9 +10,9 @@ There are several ways of editing your application.
 
 **Use prem's it team**
 
-Simply visit the [allu hemanth prem kumar Project](https://skillcoders.com/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Simply visit the [allu hemanth prem kumar Project](https://alluhemanthpremkumar.com/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-Changes made via alluhemanthpremkumar's project will be committed automatically to this repo.
+Changes made via prem's project will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -62,7 +62,7 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [allu hemanth prem kumar](https://skillcoders.com/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Simply open [alluhemanthpremkumar.com](https://alluhemanthpremkumar.com/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my alluhemanthpremkumar project?
 
@@ -70,4 +70,4 @@ Yes, you can!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.skillcoders.com/features/custom-domain#custom-domain)
+Read more here: [Setting up a custom domain](https://docs.alluhemanthpremkumar.com/features/custom-domain#custom-domain)
