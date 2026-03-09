@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-1">
             <a href="#home">
-              <img src={logo} alt="NextEra Media" className="h-20 w-auto" />
+              <img src={logo} alt="NxtEra Media" className="h-20 w-auto" />
             </a>
             <p className="text-sm text-muted-foreground mt-4 leading-relaxed">
               The Best Digital Marketing Company in Vizag. Transforming businesses into brands.
