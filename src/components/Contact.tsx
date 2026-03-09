@@ -4,7 +4,7 @@ import { MapPin, Phone, Mail, Send, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const isInView = useInView(ref { once: true, margin: "-100px" });
   const [formData, setFormData] = useState({ name: "", email: "", phone: "", message: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
