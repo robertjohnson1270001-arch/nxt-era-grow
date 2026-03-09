@@ -34,10 +34,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between h-16 md:h-20 px-4">
         <a href="#home">
-          <div className="relative overflow-hidden rounded">
-            <img src={logo} alt="NxtEra Media" className="h-30 md:h-34 w-auto" />
-            <div className="absolute inset-0 -translate-x-full animate-shine bg-gradient-to-r from-transparent via-white/30 to-transparent" />
-          </div>
+          <img src={logo} alt="NxtEra Media" className="h-30 md:h-34 w-auto" />
         </a>
 
         {/* Desktop */}
