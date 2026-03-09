@@ -36,7 +36,7 @@ const Navbar = () => {
         <a href="#home">
           <div className="relative overflow-hidden rounded">
             <img src={logo} alt="NxtEra Media" className="h-30 md:h-34 w-auto" />
-            <div className="absolute inset-0 -translate-x-full animate-[shine_3s_ease-in-out_infinite] bg-gradient-to-r from-transparent via-white/30 to-transparent" />
+            <div className="absolute inset-0 -translate-x-full animate-shine bg-gradient-to-r from-transparent via-white/30 to-transparent" />
           </div>
         </a>
 
