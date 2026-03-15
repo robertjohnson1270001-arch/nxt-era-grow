@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import logo from "@/assets/logo.png";
 import { ArrowRight, Sparkles } from "lucide-react";
 import ConsultationDialog from "./ConsultationDialog";
 
@@ -37,6 +38,15 @@ const Hero = () => {
             <Sparkles size={16} className="text-coral" />
             <span className="text-sm font-medium text-muted-foreground">Best Digital Marketing Company in Vizag</span>
           </motion.div>
+
+          <motion.img
+            src={logo}
+            alt="NxtEra Media"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.3, duration: 0.6 }}
+            className="h-24 md:h-32 w-auto mx-auto mb-6"
+          />
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[1.05] mb-6">
             Grow Your Business,{" "}
