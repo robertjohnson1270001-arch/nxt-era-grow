@@ -45,7 +45,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3, duration: 0.6 }}
-            className="h-36 md:h-48 w-auto mx-auto mb-2"
+            className="h-44 md:h-56 w-auto mx-auto -mb-4"
           />
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[1.05] mb-6">
