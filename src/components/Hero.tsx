@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import logo from "@/assets/logo.png";
 import { ArrowRight, Sparkles } from "lucide-react";
 import ConsultationDialog from "./ConsultationDialog";
 
