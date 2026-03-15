@@ -48,7 +48,7 @@ const Hero = () => {
             className="h-44 md:h-56 w-auto mx-auto -mb-8 md:-mb-12"
           />
 
-          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[1.05] mb-6">
+          <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-display font-bold leading-[1.05] mb-6">
             Grow Your Business,{" "}
             <span className="gradient-text">Digitally</span>
           </h1>
