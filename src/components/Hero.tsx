@@ -8,7 +8,7 @@ const Hero = () => {
   const [consultOpen, setConsultOpen] = useState(false);
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-14 md:pt-16">
       {/* Background effects */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-coral/10 rounded-full blur-[120px] animate-pulse-glow" />
@@ -33,7 +33,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="inline-flex items-center gap-2 glass-card px-4 py-2 mb-8"
+            className="inline-flex items-center gap-2 glass-card px-4 py-2 mb-4"
           >
             <Sparkles size={16} className="text-coral" />
             <span className="text-sm font-medium text-muted-foreground">Best Digital Marketing Company in Vizag</span>
@@ -45,10 +45,10 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3, duration: 0.6 }}
-            className="h-44 md:h-56 w-auto mx-auto -mb-8 md:-mb-12"
+            className="h-56 md:h-72 lg:h-80 w-auto mx-auto -mb-4 md:-mb-6"
           />
 
-          <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-display font-bold leading-[1.05] mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-[1.05] mb-6">
             Grow Your Business,{" "}
             <span className="gradient-text">Digitally</span>
           </h1>

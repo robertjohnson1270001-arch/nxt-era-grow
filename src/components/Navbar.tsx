@@ -32,7 +32,7 @@ const Navbar = () => {
         scrolled ? "bg-background/90 backdrop-blur-xl border-b border-border/50 shadow-lg" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto flex items-center justify-between h-16 md:h-20 px-4">
+      <div className="container mx-auto flex items-center justify-center h-14 md:h-16 px-4">
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
