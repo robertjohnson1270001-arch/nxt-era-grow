@@ -33,9 +33,6 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between h-16 md:h-20 px-4">
-        <a href="#home" className="text-xl font-display font-bold text-foreground">
-          NxtEra Media
-        </a>
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
