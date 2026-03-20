@@ -8,7 +8,7 @@ const Hero = () => {
   const [consultOpen, setConsultOpen] = useState(false);
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-14 md:pt-16">
       {/* Background effects */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-coral/10 rounded-full blur-[120px] animate-pulse-glow" />
