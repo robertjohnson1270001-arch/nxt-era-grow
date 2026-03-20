@@ -35,12 +35,12 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-center h-16 md:h-20 px-4">
 
         {/* Desktop */}
-        <div className="hidden md:flex items-center gap-2">
+        <div className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className="px-4 py-2 rounded-lg text-sm font-medium text-foreground/80 hover:text-foreground hover:bg-foreground/5 border border-transparent hover:border-border/50 transition-all"
+              className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
             >
               {item.label}
             </a>
