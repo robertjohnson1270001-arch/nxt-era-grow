@@ -32,27 +32,25 @@ const Navbar = () => {
         scrolled ? "bg-background/90 backdrop-blur-xl border-b border-border/50 shadow-lg" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto flex items-center justify-between h-16 md:h-20 px-4">
+      <div className="container mx-auto flex items-center justify-center h-16 md:h-20 px-4">
 
         {/* Desktop */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-2">
           {navItems.map((item) => (
-            <a key={item.href} href={item.href} className="nav-link text-sm font-medium">
+            <a
+              key={item.href}
+              href={item.href}
+              className="px-4 py-2 rounded-lg text-sm font-medium text-foreground/80 hover:text-foreground hover:bg-foreground/5 border border-transparent hover:border-border/50 transition-all"
+            >
               {item.label}
             </a>
           ))}
-          <a
-            href="#contact"
-            className="gradient-bg text-primary-foreground px-5 py-2.5 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
-          >
-            Free Consultation
-          </a>
         </div>
 
         {/* Mobile toggle */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden text-foreground"
+          className="md:hidden text-foreground absolute right-4"
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
